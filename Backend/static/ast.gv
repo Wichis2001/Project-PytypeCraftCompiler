@@ -1,0 +1,506 @@
+graph {
+	node [color=black fontcolor=black fontname="Comic Sans Ms" shape=box stype=filled]
+	edge [color=red]
+	splines=false
+	"e896933a-b7cc-436f-a768-ca46fbf09790" [label=AST]
+	"cad0d617-4dc3-4a44-801b-d8fe06ad40af" [label=Typed_Var]
+	"7fc040f8-894f-4d05-a61a-267bd32228e0" [label=number]
+	"1f0cdce6-06c2-496b-94f5-c77e129ba851" [label=val1]
+	"3818c429-07d9-447e-a709-b927f368911a" [label=1]
+	"7fc040f8-894f-4d05-a61a-267bd32228e0" -- "1f0cdce6-06c2-496b-94f5-c77e129ba851"
+	"cad0d617-4dc3-4a44-801b-d8fe06ad40af" -- "7fc040f8-894f-4d05-a61a-267bd32228e0"
+	"cad0d617-4dc3-4a44-801b-d8fe06ad40af" -- "3818c429-07d9-447e-a709-b927f368911a"
+	"e896933a-b7cc-436f-a768-ca46fbf09790" -- "cad0d617-4dc3-4a44-801b-d8fe06ad40af"
+	"25b37d87-0a42-46b2-822d-f06a98f4a4f3" [label=Typed_Var]
+	"b5fd3e6d-b9a9-49d8-b4d6-e81516628f90" [label=number]
+	"79348fdb-b8f5-4961-88d4-929db5099cb9" [label=val2]
+	"c6b2eab4-752b-49cb-9c3a-8abb33496361" [label=10]
+	"b5fd3e6d-b9a9-49d8-b4d6-e81516628f90" -- "79348fdb-b8f5-4961-88d4-929db5099cb9"
+	"25b37d87-0a42-46b2-822d-f06a98f4a4f3" -- "b5fd3e6d-b9a9-49d8-b4d6-e81516628f90"
+	"25b37d87-0a42-46b2-822d-f06a98f4a4f3" -- "c6b2eab4-752b-49cb-9c3a-8abb33496361"
+	"cad0d617-4dc3-4a44-801b-d8fe06ad40af" -- "25b37d87-0a42-46b2-822d-f06a98f4a4f3"
+	"3cd92288-dc4d-40e3-9005-03998cd8a3bb" [label=Typed_Var]
+	"761cd6e1-f8bf-487c-9b28-80dc94db772e" [label=number]
+	"b2df960b-5ddf-4196-a8e4-c81b33a5cfe8" [label=val3]
+	"cdfc7381-efd1-4ac4-ae1b-8c23550dc86d" [label=2021.202]
+	"761cd6e1-f8bf-487c-9b28-80dc94db772e" -- "b2df960b-5ddf-4196-a8e4-c81b33a5cfe8"
+	"3cd92288-dc4d-40e3-9005-03998cd8a3bb" -- "761cd6e1-f8bf-487c-9b28-80dc94db772e"
+	"3cd92288-dc4d-40e3-9005-03998cd8a3bb" -- "cdfc7381-efd1-4ac4-ae1b-8c23550dc86d"
+	"25b37d87-0a42-46b2-822d-f06a98f4a4f3" -- "3cd92288-dc4d-40e3-9005-03998cd8a3bb"
+	"bd5e0add-e879-4920-a53b-410eb1743910" [label="Probando declaracion de variables \
+"]
+	"176a78bb-6219-4445-a937-a01bface8442" [label="console.log"]
+	"176a78bb-6219-4445-a937-a01bface8442" -- "bd5e0add-e879-4920-a53b-410eb1743910"
+	"3cd92288-dc4d-40e3-9005-03998cd8a3bb" -- "176a78bb-6219-4445-a937-a01bface8442"
+	"69464e99-b49d-4c69-a02d-c756a38a9ade" [label=1]
+	"d721942f-54fd-467b-9594-6cd8c650f8f1" [label=","]
+	"6c8333ee-f338-4d54-acea-2796b0c6ee22" -- "d721942f-54fd-467b-9594-6cd8c650f8f1"
+	"7f02724c-ca82-45bc-ae0e-c45416ca34ad" [label=1]
+	"d721942f-54fd-467b-9594-6cd8c650f8f1" -- "7f02724c-ca82-45bc-ae0e-c45416ca34ad"
+	"6a50918c-b58b-4f12-8680-28d665640480" [label=","]
+	"d721942f-54fd-467b-9594-6cd8c650f8f1" -- "6a50918c-b58b-4f12-8680-28d665640480"
+	"e1ce001a-842d-4108-804b-aced3d95a7ef" [label=" "]
+	"6a50918c-b58b-4f12-8680-28d665640480" -- "e1ce001a-842d-4108-804b-aced3d95a7ef"
+	"8502c70b-dcba-4c0d-8ef7-73e479314ed2" [label=","]
+	"6a50918c-b58b-4f12-8680-28d665640480" -- "8502c70b-dcba-4c0d-8ef7-73e479314ed2"
+	"283467c2-cff6-44be-897c-32be68171253" [label=10]
+	"8502c70b-dcba-4c0d-8ef7-73e479314ed2" -- "283467c2-cff6-44be-897c-32be68171253"
+	"7168aaff-7346-46eb-a9f3-5167a373cf1b" [label=","]
+	"8502c70b-dcba-4c0d-8ef7-73e479314ed2" -- "7168aaff-7346-46eb-a9f3-5167a373cf1b"
+	"109247dd-6123-49f5-8589-3b40ae210898" [label=" "]
+	"7168aaff-7346-46eb-a9f3-5167a373cf1b" -- "109247dd-6123-49f5-8589-3b40ae210898"
+	"6a74a82b-d9de-4b9b-b4e2-cdce92a8c772" [label=","]
+	"7168aaff-7346-46eb-a9f3-5167a373cf1b" -- "6a74a82b-d9de-4b9b-b4e2-cdce92a8c772"
+	"dcc3a724-560b-498b-bc8e-a531975b0199" [label=2021.202]
+	"6a74a82b-d9de-4b9b-b4e2-cdce92a8c772" -- "dcc3a724-560b-498b-bc8e-a531975b0199"
+	"6c8333ee-f338-4d54-acea-2796b0c6ee22" [label="console.log"]
+	"6c8333ee-f338-4d54-acea-2796b0c6ee22" -- "69464e99-b49d-4c69-a02d-c756a38a9ade"
+	"176a78bb-6219-4445-a937-a01bface8442" -- "6c8333ee-f338-4d54-acea-2796b0c6ee22"
+	"f9a19044-260c-4b82-a13a-3bbcbc45f1a5" [label="---------------------------------"]
+	"4825e448-c0a0-42f0-8342-013cb35cd3ce" [label="console.log"]
+	"4825e448-c0a0-42f0-8342-013cb35cd3ce" -- "f9a19044-260c-4b82-a13a-3bbcbc45f1a5"
+	"6c8333ee-f338-4d54-acea-2796b0c6ee22" -- "4825e448-c0a0-42f0-8342-013cb35cd3ce"
+	"1f6bc205-e380-43d9-968a-294d3dddb1a3" [label="="]
+	"1f6bc205-e380-43d9-968a-294d3dddb1a3" -- val1
+	<function uuid4 at 0x7fdb831948b0> [label="-"]
+	<function uuid4 at 0x7fdb831948b0> [label="-"]
+	<function uuid4 at 0x7fdb831948b0> [label="+"]
+	"bfbd5648-f3c5-4a4a-bc16-4cd4cb395130" [label=1]
+	"4df1f116-bec4-4f1f-80a9-6a9b367b663a" [label=41]
+	<function uuid4 at 0x7fdb831948b0> -- "bfbd5648-f3c5-4a4a-bc16-4cd4cb395130"
+	<function uuid4 at 0x7fdb831948b0> -- "4df1f116-bec4-4f1f-80a9-6a9b367b663a"
+	<function uuid4 at 0x7fdb831948b0> [label="/"]
+	<function uuid4 at 0x7fdb831948b0> [label="*"]
+	"b37bc34a-f4d4-408f-9a0d-6c50a88c65f7" [label=123]
+	"b58a39bf-6eae-46ae-b2d3-496fb71ea4ba" [label=4]
+	<function uuid4 at 0x7fdb831948b0> -- "b37bc34a-f4d4-408f-9a0d-6c50a88c65f7"
+	<function uuid4 at 0x7fdb831948b0> -- "b58a39bf-6eae-46ae-b2d3-496fb71ea4ba"
+	<function uuid4 at 0x7fdb831948b0> [label="+"]
+	"2daa54c6-f568-449e-9e7d-9be954aec0d6" [label=2]
+	<function uuid4 at 0x7fdb831948b0> [label="*"]
+	"7ca47422-ea19-4508-b9e0-e39871030003" [label=2]
+	"651ba84e-1710-447e-8dd6-4a1879f7d8bd" [label=2]
+	<function uuid4 at 0x7fdb831948b0> -- "7ca47422-ea19-4508-b9e0-e39871030003"
+	<function uuid4 at 0x7fdb831948b0> -- "651ba84e-1710-447e-8dd6-4a1879f7d8bd"
+	<function uuid4 at 0x7fdb831948b0> -- "2daa54c6-f568-449e-9e7d-9be954aec0d6"
+	<function uuid4 at 0x7fdb831948b0> -- <function uuid4 at 0x7fdb831948b0>
+	<function uuid4 at 0x7fdb831948b0> -- <function uuid4 at 0x7fdb831948b0>
+	<function uuid4 at 0x7fdb831948b0> -- <function uuid4 at 0x7fdb831948b0>
+	<function uuid4 at 0x7fdb831948b0> -- <function uuid4 at 0x7fdb831948b0>
+	<function uuid4 at 0x7fdb831948b0> -- <function uuid4 at 0x7fdb831948b0>
+	<function uuid4 at 0x7fdb831948b0> [label="*"]
+	<function uuid4 at 0x7fdb831948b0> [label="+"]
+	"608bf854-4812-492f-9971-0a5de79314ea" [label=10]
+	<function uuid4 at 0x7fdb831948b0> [label="%"]
+	"28d50e59-1830-4029-813d-26f1d9cd11d1" [label=125]
+	"9d674add-ead6-4886-bb6f-af0535cfdc72" [label=5]
+	<function uuid4 at 0x7fdb831948b0> -- "28d50e59-1830-4029-813d-26f1d9cd11d1"
+	<function uuid4 at 0x7fdb831948b0> -- "9d674add-ead6-4886-bb6f-af0535cfdc72"
+	<function uuid4 at 0x7fdb831948b0> -- "608bf854-4812-492f-9971-0a5de79314ea"
+	<function uuid4 at 0x7fdb831948b0> -- <function uuid4 at 0x7fdb831948b0>
+	<function uuid4 at 0x7fdb831948b0> [label="^"]
+	"33f12a19-6372-4b05-bc76-58216d631ae1" [label=2]
+	"56c060da-08f7-4764-9786-bb00ee03167f" [label=2]
+	<function uuid4 at 0x7fdb831948b0> -- "33f12a19-6372-4b05-bc76-58216d631ae1"
+	<function uuid4 at 0x7fdb831948b0> -- "56c060da-08f7-4764-9786-bb00ee03167f"
+	<function uuid4 at 0x7fdb831948b0> -- <function uuid4 at 0x7fdb831948b0>
+	<function uuid4 at 0x7fdb831948b0> -- <function uuid4 at 0x7fdb831948b0>
+	<function uuid4 at 0x7fdb831948b0> -- <function uuid4 at 0x7fdb831948b0>
+	<function uuid4 at 0x7fdb831948b0> -- <function uuid4 at 0x7fdb831948b0>
+	"1f6bc205-e380-43d9-968a-294d3dddb1a3" -- <function uuid4 at 0x7fdb831948b0>
+	"4825e448-c0a0-42f0-8342-013cb35cd3ce" -- "1f6bc205-e380-43d9-968a-294d3dddb1a3"
+	"8c526aca-9382-4c6c-9213-bc7116731267" [label="="]
+	"8c526aca-9382-4c6c-9213-bc7116731267" -- val2
+	<function uuid4 at 0x7fdb831948b0> [label="+"]
+	<function uuid4 at 0x7fdb831948b0> [label="*"]
+	"e3272113-ca1f-42b2-9d6e-5a68da042b0e" [label=11]
+	<function uuid4 at 0x7fdb831948b0> [label="%"]
+	"140555fb-3fe6-41c3-981c-2f7ec4d0f38d" [label=11]
+	<function uuid4 at 0x7fdb831948b0> [label="+"]
+	"4da2815b-530f-4b5f-b421-db621ab5eff4" [label=12]
+	"595f393e-2654-44ba-b542-16ed6b6ace22" [label="-"]
+	"7ea12a33-3e56-4d76-8ef3-0808d27c1bde" [label=10]
+	"595f393e-2654-44ba-b542-16ed6b6ace22" -- "7ea12a33-3e56-4d76-8ef3-0808d27c1bde"
+	<function uuid4 at 0x7fdb831948b0> -- "4da2815b-530f-4b5f-b421-db621ab5eff4"
+	<function uuid4 at 0x7fdb831948b0> -- "595f393e-2654-44ba-b542-16ed6b6ace22"
+	<function uuid4 at 0x7fdb831948b0> -- "140555fb-3fe6-41c3-981c-2f7ec4d0f38d"
+	<function uuid4 at 0x7fdb831948b0> -- <function uuid4 at 0x7fdb831948b0>
+	<function uuid4 at 0x7fdb831948b0> -- "e3272113-ca1f-42b2-9d6e-5a68da042b0e"
+	<function uuid4 at 0x7fdb831948b0> -- <function uuid4 at 0x7fdb831948b0>
+	<function uuid4 at 0x7fdb831948b0> [label="/"]
+	"a5de79bb-859e-44fc-aa8c-d984a6f1115e" [label=22]
+	"cbe2c015-e7d9-4789-bef0-a787528426e1" [label=2]
+	<function uuid4 at 0x7fdb831948b0> -- "a5de79bb-859e-44fc-aa8c-d984a6f1115e"
+	<function uuid4 at 0x7fdb831948b0> -- "cbe2c015-e7d9-4789-bef0-a787528426e1"
+	<function uuid4 at 0x7fdb831948b0> -- <function uuid4 at 0x7fdb831948b0>
+	<function uuid4 at 0x7fdb831948b0> -- <function uuid4 at 0x7fdb831948b0>
+	"8c526aca-9382-4c6c-9213-bc7116731267" -- <function uuid4 at 0x7fdb831948b0>
+	"1f6bc205-e380-43d9-968a-294d3dddb1a3" -- "8c526aca-9382-4c6c-9213-bc7116731267"
+	"e64cb024-d5f0-4e5b-ab83-4e6d3e02a2c3" [label="="]
+	"e64cb024-d5f0-4e5b-ab83-4e6d3e02a2c3" -- val3
+	<function uuid4 at 0x7fdb831948b0> [label="+"]
+	<function uuid4 at 0x7fdb831948b0> [label="^"]
+	"6b08d16f-7804-4574-9649-ba6065014372" [label=2]
+	<function uuid4 at 0x7fdb831948b0> [label="*"]
+	"0c9d796c-2d4e-46fd-9e0e-36b16705cf9a" [label=5]
+	<function uuid4 at 0x7fdb831948b0> [label="^"]
+	"358b44ca-1a77-41d5-9fcc-29019440e87c" [label=12]
+	"7d1728c0-dac2-4fad-9a3d-31365dfa4a4b" [label=2]
+	<function uuid4 at 0x7fdb831948b0> -- "358b44ca-1a77-41d5-9fcc-29019440e87c"
+	<function uuid4 at 0x7fdb831948b0> -- "7d1728c0-dac2-4fad-9a3d-31365dfa4a4b"
+	<function uuid4 at 0x7fdb831948b0> -- "0c9d796c-2d4e-46fd-9e0e-36b16705cf9a"
+	<function uuid4 at 0x7fdb831948b0> -- <function uuid4 at 0x7fdb831948b0>
+	<function uuid4 at 0x7fdb831948b0> -- "6b08d16f-7804-4574-9649-ba6065014372"
+	<function uuid4 at 0x7fdb831948b0> -- <function uuid4 at 0x7fdb831948b0>
+	<function uuid4 at 0x7fdb831948b0> [label="/"]
+	"07ed0842-130c-42c1-8495-c1b4954ead8a" [label=25]
+	"d8220e99-e6cb-468a-8450-48031e3697eb" [label=5]
+	<function uuid4 at 0x7fdb831948b0> -- "07ed0842-130c-42c1-8495-c1b4954ead8a"
+	<function uuid4 at 0x7fdb831948b0> -- "d8220e99-e6cb-468a-8450-48031e3697eb"
+	<function uuid4 at 0x7fdb831948b0> -- <function uuid4 at 0x7fdb831948b0>
+	<function uuid4 at 0x7fdb831948b0> -- <function uuid4 at 0x7fdb831948b0>
+	"e64cb024-d5f0-4e5b-ab83-4e6d3e02a2c3" -- <function uuid4 at 0x7fdb831948b0>
+	"8c526aca-9382-4c6c-9213-bc7116731267" -- "e64cb024-d5f0-4e5b-ab83-4e6d3e02a2c3"
+	"6debf133-964d-41ec-acba-761f8ecee27f" [label="Probando asignación de variables y aritmeticas"]
+	"b09fb1df-fff9-44b2-888d-2625ffd1afe9" [label="console.log"]
+	"b09fb1df-fff9-44b2-888d-2625ffd1afe9" -- "6debf133-964d-41ec-acba-761f8ecee27f"
+	"e64cb024-d5f0-4e5b-ab83-4e6d3e02a2c3" -- "b09fb1df-fff9-44b2-888d-2625ffd1afe9"
+	"2a9afe8b-6992-4e9b-9ba2-62348f56bc81" [label=-80.0]
+	"fc8d4b9d-37bc-46b9-8724-56786b02cd32" [label=","]
+	"bd7fbed0-c980-44df-9230-f1f335739886" -- "fc8d4b9d-37bc-46b9-8724-56786b02cd32"
+	"b8404b58-fce9-42e9-bfaf-5d579b2a1885" [label=-80.0]
+	"fc8d4b9d-37bc-46b9-8724-56786b02cd32" -- "b8404b58-fce9-42e9-bfaf-5d579b2a1885"
+	"068a28a7-8ea3-4fcd-82c8-c752aae18c4c" [label=","]
+	"fc8d4b9d-37bc-46b9-8724-56786b02cd32" -- "068a28a7-8ea3-4fcd-82c8-c752aae18c4c"
+	"a74262f6-defc-41f2-9f7c-e578fc444e27" [label=" "]
+	"068a28a7-8ea3-4fcd-82c8-c752aae18c4c" -- "a74262f6-defc-41f2-9f7c-e578fc444e27"
+	"27d01ba4-2189-45a6-99aa-676f33e1f6b1" [label=","]
+	"068a28a7-8ea3-4fcd-82c8-c752aae18c4c" -- "27d01ba4-2189-45a6-99aa-676f33e1f6b1"
+	"bf367a54-c2af-4428-8676-4418803539b9" [label=22.0]
+	"27d01ba4-2189-45a6-99aa-676f33e1f6b1" -- "bf367a54-c2af-4428-8676-4418803539b9"
+	"4861e6de-e5f8-4ec9-ac29-ea40abde3c64" [label=","]
+	"27d01ba4-2189-45a6-99aa-676f33e1f6b1" -- "4861e6de-e5f8-4ec9-ac29-ea40abde3c64"
+	"57eeac4c-e07d-4370-94f5-7d0365eb8428" [label=" "]
+	"4861e6de-e5f8-4ec9-ac29-ea40abde3c64" -- "57eeac4c-e07d-4370-94f5-7d0365eb8428"
+	"a7b4682f-b917-495a-bd63-9376f6b30f99" [label=","]
+	"4861e6de-e5f8-4ec9-ac29-ea40abde3c64" -- "a7b4682f-b917-495a-bd63-9376f6b30f99"
+	"0dae899f-1258-4a0a-ae62-16e6616b04fe" [label="5.515652263101987e+216"]
+	"a7b4682f-b917-495a-bd63-9376f6b30f99" -- "0dae899f-1258-4a0a-ae62-16e6616b04fe"
+	"bd7fbed0-c980-44df-9230-f1f335739886" [label="console.log"]
+	"bd7fbed0-c980-44df-9230-f1f335739886" -- "2a9afe8b-6992-4e9b-9ba2-62348f56bc81"
+	"b09fb1df-fff9-44b2-888d-2625ffd1afe9" -- "bd7fbed0-c980-44df-9230-f1f335739886"
+	"9f098825-4d40-4a2f-84f4-33bfc4221225" [label="---------------------------------"]
+	"d966cb1d-e8b9-4caf-adbd-0a71b2edd4ad" [label="console.log"]
+	"d966cb1d-e8b9-4caf-adbd-0a71b2edd4ad" -- "9f098825-4d40-4a2f-84f4-33bfc4221225"
+	"bd7fbed0-c980-44df-9230-f1f335739886" -- "d966cb1d-e8b9-4caf-adbd-0a71b2edd4ad"
+	"b9514dba-1524-44ab-b3b7-78cd08a1baa5" [label=Untyped_Var]
+	"37487780-f50c-4a4d-8ec4-bd34ad4db956" [label=any]
+	"6ea68732-bed9-4b6d-b7f1-cd61694f2bc5" [label=rel1]
+	"a587fee7-a0a1-4c4e-a47a-2956dba135c2" [label="||"]
+	"a9cf6746-b913-4c6a-9726-c5805eea6bd5" [label="&&"]
+	"2849f442-b705-4102-9862-91c326221de7" [label="==="]
+	<function uuid4 at 0x7fdb831948b0> [label="-"]
+	"d5903ec9-b5f6-42b8-a5dd-3001c73633b5" [label=-80.0]
+	"aac67afb-9771-4ae2-bc8d-247732a6985f" [label=22.0]
+	<function uuid4 at 0x7fdb831948b0> -- "d5903ec9-b5f6-42b8-a5dd-3001c73633b5"
+	<function uuid4 at 0x7fdb831948b0> -- "aac67afb-9771-4ae2-bc8d-247732a6985f"
+	"ca6b4687-c43f-46e0-afbf-1ad6a9fb3c27" [label=24]
+	"2849f442-b705-4102-9862-91c326221de7" -- <function uuid4 at 0x7fdb831948b0>
+	"2849f442-b705-4102-9862-91c326221de7" -- "ca6b4687-c43f-46e0-afbf-1ad6a9fb3c27"
+	"c7073cfb-ef88-4b28-bcda-08459a7d760b" [label="&&"]
+	"e6799551-19f8-4c4f-8a03-b2cd36c23337" [label=True]
+	"8b922a5e-0dc7-4430-b75c-cfa318c52f4e" [label="||"]
+	"34ad36a3-d944-4d32-9965-3ab03d5f03b4" [label=False]
+	"f872f67d-2822-41f5-b4b9-647dd1c997ae" [label=">="]
+	"6c4d1401-644b-4ec0-aabd-ed051da02337" [label=5]
+	"d9032bd3-6a4c-42fc-9c15-f5f7e035fe5f" [label=5]
+	"f872f67d-2822-41f5-b4b9-647dd1c997ae" -- "6c4d1401-644b-4ec0-aabd-ed051da02337"
+	"f872f67d-2822-41f5-b4b9-647dd1c997ae" -- "d9032bd3-6a4c-42fc-9c15-f5f7e035fe5f"
+	"8b922a5e-0dc7-4430-b75c-cfa318c52f4e" -- "34ad36a3-d944-4d32-9965-3ab03d5f03b4"
+	"8b922a5e-0dc7-4430-b75c-cfa318c52f4e" -- "f872f67d-2822-41f5-b4b9-647dd1c997ae"
+	"c7073cfb-ef88-4b28-bcda-08459a7d760b" -- "e6799551-19f8-4c4f-8a03-b2cd36c23337"
+	"c7073cfb-ef88-4b28-bcda-08459a7d760b" -- "8b922a5e-0dc7-4430-b75c-cfa318c52f4e"
+	"a9cf6746-b913-4c6a-9726-c5805eea6bd5" -- "2849f442-b705-4102-9862-91c326221de7"
+	"a9cf6746-b913-4c6a-9726-c5805eea6bd5" -- "c7073cfb-ef88-4b28-bcda-08459a7d760b"
+	"3ffc1bff-56cf-417d-8dca-0eca3e531194" [label="||"]
+	"13d2326c-3b72-4b27-976d-8789f13203ec" [label="!=="]
+	<function uuid4 at 0x7fdb831948b0> [label="*"]
+	"214cacf7-28bb-4e38-a0a6-129f66f11a3c" [label=7]
+	"a429f4e6-b030-440a-a3f0-b82a794d81e2" [label=7]
+	<function uuid4 at 0x7fdb831948b0> -- "214cacf7-28bb-4e38-a0a6-129f66f11a3c"
+	<function uuid4 at 0x7fdb831948b0> -- "a429f4e6-b030-440a-a3f0-b82a794d81e2"
+	<function uuid4 at 0x7fdb831948b0> [label="+"]
+	"442d2a1e-e9a3-40b7-8062-5f8f4586422f" [label=15]
+	"8c0f09ac-05ee-408e-b5ec-2f1682ce0e39" [label=555]
+	<function uuid4 at 0x7fdb831948b0> -- "442d2a1e-e9a3-40b7-8062-5f8f4586422f"
+	<function uuid4 at 0x7fdb831948b0> -- "8c0f09ac-05ee-408e-b5ec-2f1682ce0e39"
+	"13d2326c-3b72-4b27-976d-8789f13203ec" -- <function uuid4 at 0x7fdb831948b0>
+	"13d2326c-3b72-4b27-976d-8789f13203ec" -- <function uuid4 at 0x7fdb831948b0>
+	"1f818946-6658-47c5-be97-774a3c6dfe92" [label=">"]
+	"cbfa2dea-fc77-486a-a7ea-9cf3feed6507" [label="-"]
+	"931f2a31-e136-4bd6-b3f3-0219d79534d9" [label=61]
+	"cbfa2dea-fc77-486a-a7ea-9cf3feed6507" -- "931f2a31-e136-4bd6-b3f3-0219d79534d9"
+	"495a2393-0c21-4902-a1aa-4d62daf6832e" [label=51]
+	"1f818946-6658-47c5-be97-774a3c6dfe92" -- "cbfa2dea-fc77-486a-a7ea-9cf3feed6507"
+	"1f818946-6658-47c5-be97-774a3c6dfe92" -- "495a2393-0c21-4902-a1aa-4d62daf6832e"
+	"3ffc1bff-56cf-417d-8dca-0eca3e531194" -- "13d2326c-3b72-4b27-976d-8789f13203ec"
+	"3ffc1bff-56cf-417d-8dca-0eca3e531194" -- "1f818946-6658-47c5-be97-774a3c6dfe92"
+	"a587fee7-a0a1-4c4e-a47a-2956dba135c2" -- "a9cf6746-b913-4c6a-9726-c5805eea6bd5"
+	"a587fee7-a0a1-4c4e-a47a-2956dba135c2" -- "3ffc1bff-56cf-417d-8dca-0eca3e531194"
+	"37487780-f50c-4a4d-8ec4-bd34ad4db956" -- "6ea68732-bed9-4b6d-b7f1-cd61694f2bc5"
+	"b9514dba-1524-44ab-b3b7-78cd08a1baa5" -- "37487780-f50c-4a4d-8ec4-bd34ad4db956"
+	"b9514dba-1524-44ab-b3b7-78cd08a1baa5" -- "a587fee7-a0a1-4c4e-a47a-2956dba135c2"
+	"d966cb1d-e8b9-4caf-adbd-0a71b2edd4ad" -- "b9514dba-1524-44ab-b3b7-78cd08a1baa5"
+	"69fa174a-fc24-4f6b-bba9-442d602c12cd" [label=Untyped_Var]
+	"bf0c54f1-ffb8-4411-bdae-949db0b7c415" [label=any]
+	"f8fac7d3-e1f9-4ede-9118-41ad24d2c52b" [label=rel2]
+	"14f78d5b-0980-4f9e-b165-ac40c96d99ac" [label="&&"]
+	"c566d4a2-a38b-44b0-bf88-e6474db56ab7" [label="<="]
+	<function uuid4 at 0x7fdb831948b0> [label="*"]
+	"3e8ff20a-77b3-4e46-b3ad-84fc5300ba46" [label=7]
+	"eddf3ddd-7dbe-4e6d-924f-a276d78f8425" [label=7]
+	<function uuid4 at 0x7fdb831948b0> -- "3e8ff20a-77b3-4e46-b3ad-84fc5300ba46"
+	<function uuid4 at 0x7fdb831948b0> -- "eddf3ddd-7dbe-4e6d-924f-a276d78f8425"
+	<function uuid4 at 0x7fdb831948b0> [label="+"]
+	"5c1666c1-d61a-4ec3-bb6b-7fef86e826e3" [label=15]
+	"24c14f73-530b-4cd5-8daf-31082dfe4a81" [label=555]
+	<function uuid4 at 0x7fdb831948b0> -- "5c1666c1-d61a-4ec3-bb6b-7fef86e826e3"
+	<function uuid4 at 0x7fdb831948b0> -- "24c14f73-530b-4cd5-8daf-31082dfe4a81"
+	"c566d4a2-a38b-44b0-bf88-e6474db56ab7" -- <function uuid4 at 0x7fdb831948b0>
+	"c566d4a2-a38b-44b0-bf88-e6474db56ab7" -- <function uuid4 at 0x7fdb831948b0>
+	"9582d139-b481-487e-82ed-72a308ddf75d" [label="<"]
+	"c6762531-bb8d-4644-a57a-8818c4e87b3e" [label=1]
+	"5250cb91-cc73-4305-bc49-2bfbcb1235a4" [label=2]
+	"9582d139-b481-487e-82ed-72a308ddf75d" -- "c6762531-bb8d-4644-a57a-8818c4e87b3e"
+	"9582d139-b481-487e-82ed-72a308ddf75d" -- "5250cb91-cc73-4305-bc49-2bfbcb1235a4"
+	"14f78d5b-0980-4f9e-b165-ac40c96d99ac" -- "c566d4a2-a38b-44b0-bf88-e6474db56ab7"
+	"14f78d5b-0980-4f9e-b165-ac40c96d99ac" -- "9582d139-b481-487e-82ed-72a308ddf75d"
+	"bf0c54f1-ffb8-4411-bdae-949db0b7c415" -- "f8fac7d3-e1f9-4ede-9118-41ad24d2c52b"
+	"69fa174a-fc24-4f6b-bba9-442d602c12cd" -- "bf0c54f1-ffb8-4411-bdae-949db0b7c415"
+	"69fa174a-fc24-4f6b-bba9-442d602c12cd" -- "14f78d5b-0980-4f9e-b165-ac40c96d99ac"
+	"b9514dba-1524-44ab-b3b7-78cd08a1baa5" -- "69fa174a-fc24-4f6b-bba9-442d602c12cd"
+	"1e964230-d80d-4e99-b0ed-05c7f2b7200f" [label=Untyped_Var]
+	"4f8e2a79-9215-412d-ba78-859b914eebb1" [label=any]
+	"c969be5d-b92a-4e1a-b2eb-bd4c72cb9469" [label=rel3]
+	"e68f1858-a761-4510-8de9-bb6d250fe1aa" [label="&&"]
+	"bb11fffc-4252-43e1-9f76-2e69b1b13ed4" [label="==="]
+	"6aa47028-7a29-45af-9e3b-4e3c9db0b114" [label="!=="]
+	"7570c2b3-1464-4a03-beb3-cd6041e95dac" [label="==="]
+	"811ed8c4-8d35-4bcb-ae73-a85f8bdcef0a" [label=0]
+	"e594c97e-301a-4d1b-b05e-f941cd6f4c0e" [label=0]
+	"7570c2b3-1464-4a03-beb3-cd6041e95dac" -- "811ed8c4-8d35-4bcb-ae73-a85f8bdcef0a"
+	"7570c2b3-1464-4a03-beb3-cd6041e95dac" -- "e594c97e-301a-4d1b-b05e-f941cd6f4c0e"
+	"211a7480-6e7a-489b-adce-a214d8800fe5" [label=">"]
+	"d3649a67-7b63-4155-9e21-8c7b3b70fe95" [label=532]
+	"319f8629-c334-49c2-842f-78edbd69685a" [label=532]
+	"211a7480-6e7a-489b-adce-a214d8800fe5" -- "d3649a67-7b63-4155-9e21-8c7b3b70fe95"
+	"211a7480-6e7a-489b-adce-a214d8800fe5" -- "319f8629-c334-49c2-842f-78edbd69685a"
+	"6aa47028-7a29-45af-9e3b-4e3c9db0b114" -- "7570c2b3-1464-4a03-beb3-cd6041e95dac"
+	"6aa47028-7a29-45af-9e3b-4e3c9db0b114" -- "211a7480-6e7a-489b-adce-a214d8800fe5"
+	"c5f7d32c-5344-4e9f-b182-9679e6753477" [label="==="]
+	"b3417248-96a6-4743-bec8-654129a6d575" [label=Hola]
+	"3c52973d-4ef7-4ac0-b336-180a83c54d3a" [label=Hola]
+	"c5f7d32c-5344-4e9f-b182-9679e6753477" -- "b3417248-96a6-4743-bec8-654129a6d575"
+	"c5f7d32c-5344-4e9f-b182-9679e6753477" -- "3c52973d-4ef7-4ac0-b336-180a83c54d3a"
+	"bb11fffc-4252-43e1-9f76-2e69b1b13ed4" -- "6aa47028-7a29-45af-9e3b-4e3c9db0b114"
+	"bb11fffc-4252-43e1-9f76-2e69b1b13ed4" -- "c5f7d32c-5344-4e9f-b182-9679e6753477"
+	"3ec076ee-18d4-499e-9d27-adf5de36a729" [label="||"]
+	"f6d7fb4c-2abd-41ba-8cf6-4d004062dd89" [label=False]
+	"e925e7cb-fba2-4561-9e32-85e360faee6a" [label="!"]
+	"591c272c-75c7-4441-bf2e-1f7eead48ef4" [label=False]
+	"e925e7cb-fba2-4561-9e32-85e360faee6a" -- "591c272c-75c7-4441-bf2e-1f7eead48ef4"
+	"3ec076ee-18d4-499e-9d27-adf5de36a729" -- "f6d7fb4c-2abd-41ba-8cf6-4d004062dd89"
+	"3ec076ee-18d4-499e-9d27-adf5de36a729" -- "e925e7cb-fba2-4561-9e32-85e360faee6a"
+	"e68f1858-a761-4510-8de9-bb6d250fe1aa" -- "bb11fffc-4252-43e1-9f76-2e69b1b13ed4"
+	"e68f1858-a761-4510-8de9-bb6d250fe1aa" -- "3ec076ee-18d4-499e-9d27-adf5de36a729"
+	"4f8e2a79-9215-412d-ba78-859b914eebb1" -- "c969be5d-b92a-4e1a-b2eb-bd4c72cb9469"
+	"1e964230-d80d-4e99-b0ed-05c7f2b7200f" -- "4f8e2a79-9215-412d-ba78-859b914eebb1"
+	"1e964230-d80d-4e99-b0ed-05c7f2b7200f" -- "e68f1858-a761-4510-8de9-bb6d250fe1aa"
+	"69fa174a-fc24-4f6b-bba9-442d602c12cd" -- "1e964230-d80d-4e99-b0ed-05c7f2b7200f"
+	"a0e31534-b8bc-4897-8a5d-8e6aa0a93f5c" [label="Probando relacionales y logicas"]
+	"c4f89ee0-eca4-42de-b4e1-5d472895db1f" [label="console.log"]
+	"c4f89ee0-eca4-42de-b4e1-5d472895db1f" -- "a0e31534-b8bc-4897-8a5d-8e6aa0a93f5c"
+	"1e964230-d80d-4e99-b0ed-05c7f2b7200f" -- "c4f89ee0-eca4-42de-b4e1-5d472895db1f"
+	"1bb6a45e-91ee-4684-a5a1-49a8161bf0e0" [label=True]
+	"7a263743-bac8-484c-86c0-8c1f2dd592f8" [label=","]
+	"907cde88-3387-4d58-ab15-a93099d3980f" -- "7a263743-bac8-484c-86c0-8c1f2dd592f8"
+	"18953557-c20d-48fd-9472-42c458ccd7aa" [label=True]
+	"7a263743-bac8-484c-86c0-8c1f2dd592f8" -- "18953557-c20d-48fd-9472-42c458ccd7aa"
+	"b94e174f-4701-4954-96c4-ee114678e9ac" [label=","]
+	"7a263743-bac8-484c-86c0-8c1f2dd592f8" -- "b94e174f-4701-4954-96c4-ee114678e9ac"
+	"7a822a33-0d68-4d20-bcfb-b5c7265d42a9" [label=" "]
+	"b94e174f-4701-4954-96c4-ee114678e9ac" -- "7a822a33-0d68-4d20-bcfb-b5c7265d42a9"
+	"d8861bfa-e484-48f1-b184-ffef8326575d" [label=","]
+	"b94e174f-4701-4954-96c4-ee114678e9ac" -- "d8861bfa-e484-48f1-b184-ffef8326575d"
+	"a5143988-a857-4de6-af7e-224d8aa6c14a" [label=True]
+	"d8861bfa-e484-48f1-b184-ffef8326575d" -- "a5143988-a857-4de6-af7e-224d8aa6c14a"
+	"0fd3270c-5949-4a7f-b3a0-b170a0556595" [label=","]
+	"d8861bfa-e484-48f1-b184-ffef8326575d" -- "0fd3270c-5949-4a7f-b3a0-b170a0556595"
+	"5f503488-81ec-40fd-ac88-c1298bf2b6ea" [label=" "]
+	"0fd3270c-5949-4a7f-b3a0-b170a0556595" -- "5f503488-81ec-40fd-ac88-c1298bf2b6ea"
+	"534ec23c-ce64-45c7-8ff1-02af8cce6f38" [label=","]
+	"0fd3270c-5949-4a7f-b3a0-b170a0556595" -- "534ec23c-ce64-45c7-8ff1-02af8cce6f38"
+	"6b1e608d-f4cf-40c2-ad60-be293e92e429" [label=True]
+	"534ec23c-ce64-45c7-8ff1-02af8cce6f38" -- "6b1e608d-f4cf-40c2-ad60-be293e92e429"
+	"907cde88-3387-4d58-ab15-a93099d3980f" [label="console.log"]
+	"907cde88-3387-4d58-ab15-a93099d3980f" -- "1bb6a45e-91ee-4684-a5a1-49a8161bf0e0"
+	"c4f89ee0-eca4-42de-b4e1-5d472895db1f" -- "907cde88-3387-4d58-ab15-a93099d3980f"
+	"6b925852-748b-49db-9077-6eba54de3107" [label="---------------------------------"]
+	"3fb384af-09f5-4580-97f7-2fe1c43129c8" [label="console.log"]
+	"3fb384af-09f5-4580-97f7-2fe1c43129c8" -- "6b925852-748b-49db-9077-6eba54de3107"
+	"907cde88-3387-4d58-ab15-a93099d3980f" -- "3fb384af-09f5-4580-97f7-2fe1c43129c8"
+	"c83c4b2a-d117-42fc-9162-cd382d3f0ab6" [label="OPERACIONES "]
+	"4a4e080a-b62a-48fb-9a0b-0c468c00b430" [label=","]
+	"a59cd409-b002-4737-9a5b-4b415b896638" -- "4a4e080a-b62a-48fb-9a0b-0c468c00b430"
+	"56a4843f-f9b1-4fe7-a147-c312a32d7905" [label="OPERACIONES "]
+	"4a4e080a-b62a-48fb-9a0b-0c468c00b430" -- "56a4843f-f9b1-4fe7-a147-c312a32d7905"
+	"93179ed3-6344-4649-8ab0-bdcfec944be3" [label=","]
+	"4a4e080a-b62a-48fb-9a0b-0c468c00b430" -- "93179ed3-6344-4649-8ab0-bdcfec944be3"
+	<function uuid4 at 0x7fdb831948b0> [label="+"]
+	"e4ae8bec-8a9c-4932-82c7-8699043f55f1" [label="CON "]
+	"3b9e7b57-0909-4547-9cf0-eeed402ef5c3" [label=Cadenas]
+	<function uuid4 at 0x7fdb831948b0> -- "e4ae8bec-8a9c-4932-82c7-8699043f55f1"
+	<function uuid4 at 0x7fdb831948b0> -- "3b9e7b57-0909-4547-9cf0-eeed402ef5c3"
+	"93179ed3-6344-4649-8ab0-bdcfec944be3" -- <function uuid4 at 0x7fdb831948b0>
+	"a59cd409-b002-4737-9a5b-4b415b896638" [label="console.log"]
+	"a59cd409-b002-4737-9a5b-4b415b896638" -- "c83c4b2a-d117-42fc-9162-cd382d3f0ab6"
+	"3fb384af-09f5-4580-97f7-2fe1c43129c8" -- "a59cd409-b002-4737-9a5b-4b415b896638"
+	"f0e6e07e-9e36-4af0-9f3a-88da666ad2d7" [label=Untyped_Var]
+	"b4dc572a-ca2e-4215-9b02-7f99d677eb62" [label=any]
+	"1bab1b28-40d4-4c03-9a9c-010480efec94" [label=despedida]
+	"2d0dc78b-d867-423f-9266-34f8a6555749" [label="Adios mundo :c"]
+	"b4dc572a-ca2e-4215-9b02-7f99d677eb62" -- "1bab1b28-40d4-4c03-9a9c-010480efec94"
+	"f0e6e07e-9e36-4af0-9f3a-88da666ad2d7" -- "b4dc572a-ca2e-4215-9b02-7f99d677eb62"
+	"f0e6e07e-9e36-4af0-9f3a-88da666ad2d7" -- "2d0dc78b-d867-423f-9266-34f8a6555749"
+	"a59cd409-b002-4737-9a5b-4b415b896638" -- "f0e6e07e-9e36-4af0-9f3a-88da666ad2d7"
+	"3e178839-8b9e-4d05-b97c-2c63f58b5409" [label=Typed_Var]
+	"edb2d0e4-e021-408d-8987-3e91e5565585" [label=string]
+	"ca3ea659-bf86-4c1b-bc02-18c5b79b730d" [label=saludo]
+	"901b4582-09c8-48e7-ae0f-710339ba8d79" [label="Hola Mundo! "]
+	"edb2d0e4-e021-408d-8987-3e91e5565585" -- "ca3ea659-bf86-4c1b-bc02-18c5b79b730d"
+	"3e178839-8b9e-4d05-b97c-2c63f58b5409" -- "edb2d0e4-e021-408d-8987-3e91e5565585"
+	"3e178839-8b9e-4d05-b97c-2c63f58b5409" -- "901b4582-09c8-48e7-ae0f-710339ba8d79"
+	"f0e6e07e-9e36-4af0-9f3a-88da666ad2d7" -- "3e178839-8b9e-4d05-b97c-2c63f58b5409"
+	"e89a297e-fb21-4279-9da8-c14ac3373cb3" [label="toLowerCase()"]
+	"10f5f279-f03d-41f5-bc6d-9baf0212ae59" [label=Params]
+	"e89a297e-fb21-4279-9da8-c14ac3373cb3" -- "10f5f279-f03d-41f5-bc6d-9baf0212ae59"
+	"155ce213-5dec-4e33-9b83-de4e397680de" [label="Hola Mundo! "]
+	"10f5f279-f03d-41f5-bc6d-9baf0212ae59" -- "155ce213-5dec-4e33-9b83-de4e397680de"
+	"cbbd4251-34dd-4b86-8fa8-06ea01d7b4cb" [label=","]
+	"7c018501-abbf-4f5c-9a3e-e9c91b724ff5" -- "cbbd4251-34dd-4b86-8fa8-06ea01d7b4cb"
+	"385ab1ea-101d-4025-b333-293278b5391c" [label="toLowerCase()"]
+	"7f61fa37-5e18-4162-8998-ec8e6bac9fc8" [label=Params]
+	"385ab1ea-101d-4025-b333-293278b5391c" -- "7f61fa37-5e18-4162-8998-ec8e6bac9fc8"
+	"64c90cbc-015a-47ef-916c-ec1659441e4d" [label="Hola Mundo! "]
+	"7f61fa37-5e18-4162-8998-ec8e6bac9fc8" -- "64c90cbc-015a-47ef-916c-ec1659441e4d"
+	"cbbd4251-34dd-4b86-8fa8-06ea01d7b4cb" -- "385ab1ea-101d-4025-b333-293278b5391c"
+	"9893678d-253e-4141-a489-86ebea9c8a8d" [label=","]
+	"cbbd4251-34dd-4b86-8fa8-06ea01d7b4cb" -- "9893678d-253e-4141-a489-86ebea9c8a8d"
+	"9b93fa2b-95f3-497f-9c79-95370076f688" [label="toUpperCase()"]
+	"a78b9875-dbb9-4fcc-9794-5a7a403e0c47" [label=Params]
+	"9b93fa2b-95f3-497f-9c79-95370076f688" -- "a78b9875-dbb9-4fcc-9794-5a7a403e0c47"
+	"7f72403f-e9d3-4c32-a045-bbfeb3492908" [label="Adios mundo :c"]
+	"a78b9875-dbb9-4fcc-9794-5a7a403e0c47" -- "7f72403f-e9d3-4c32-a045-bbfeb3492908"
+	"9893678d-253e-4141-a489-86ebea9c8a8d" -- "9b93fa2b-95f3-497f-9c79-95370076f688"
+	"7c018501-abbf-4f5c-9a3e-e9c91b724ff5" [label="console.log"]
+	"7c018501-abbf-4f5c-9a3e-e9c91b724ff5" -- "e89a297e-fb21-4279-9da8-c14ac3373cb3"
+	"3e178839-8b9e-4d05-b97c-2c63f58b5409" -- "7c018501-abbf-4f5c-9a3e-e9c91b724ff5"
+	"006505e8-deed-43b2-a1fc-eba12a10a7b2" [label="Probando algunas funciones nativas de PyTypeCraft"]
+	"5b1eca73-93b4-43d2-bc1f-b3ffe8955fc5" [label="console.log"]
+	"5b1eca73-93b4-43d2-bc1f-b3ffe8955fc5" -- "006505e8-deed-43b2-a1fc-eba12a10a7b2"
+	"7c018501-abbf-4f5c-9a3e-e9c91b724ff5" -- "5b1eca73-93b4-43d2-bc1f-b3ffe8955fc5"
+	"2d418004-d4c3-4eaf-87a0-8bca677bfcc3" [label="Funciones relacionadas a conversiones"]
+	"f69eef17-f8f0-498b-b684-dde60854d861" [label="console.log"]
+	"f69eef17-f8f0-498b-b684-dde60854d861" -- "2d418004-d4c3-4eaf-87a0-8bca677bfcc3"
+	"5b1eca73-93b4-43d2-bc1f-b3ffe8955fc5" -- "f69eef17-f8f0-498b-b684-dde60854d861"
+	"b934b2e8-b80e-46b7-9491-956c10e9cec3" [label=Untyped_Var]
+	"6f2516f1-7d7a-44dd-bac9-436cc1f8c481" [label=any]
+	"1ac8aefd-4924-4c7a-8550-abbca417a643" [label=aprox_1]
+	"beeb6da2-460e-44db-a973-34463995577b" [label=3.141516]
+	"6f2516f1-7d7a-44dd-bac9-436cc1f8c481" -- "1ac8aefd-4924-4c7a-8550-abbca417a643"
+	"b934b2e8-b80e-46b7-9491-956c10e9cec3" -- "6f2516f1-7d7a-44dd-bac9-436cc1f8c481"
+	"b934b2e8-b80e-46b7-9491-956c10e9cec3" -- "beeb6da2-460e-44db-a973-34463995577b"
+	"f69eef17-f8f0-498b-b684-dde60854d861" -- "b934b2e8-b80e-46b7-9491-956c10e9cec3"
+	"1daf28c9-53df-4b01-bed5-255d3c7c3443" [label="toFixed()"]
+	"13d91086-d18c-4355-a28f-2be26671f01e" [label=Params]
+	"1daf28c9-53df-4b01-bed5-255d3c7c3443" -- "13d91086-d18c-4355-a28f-2be26671f01e"
+	"6048739a-9773-4626-a0ac-75090325d43e" [label=3.141516]
+	"13d91086-d18c-4355-a28f-2be26671f01e" -- "6048739a-9773-4626-a0ac-75090325d43e"
+	"6dcddd6a-3bac-4339-91f2-6caa74026dcf" [label=3]
+	"13d91086-d18c-4355-a28f-2be26671f01e" -- "6dcddd6a-3bac-4339-91f2-6caa74026dcf"
+	"9300c690-e0a0-49d1-8bec-435fa932330a" [label=","]
+	"4af4d0d1-8759-4604-86f9-60804d8d24f0" -- "9300c690-e0a0-49d1-8bec-435fa932330a"
+	"8fc4bc8e-5d57-4f03-bbd0-e19939fa5e38" [label="toFixed()"]
+	"bbe82807-e10d-4524-94c4-ab1a4656cc0d" [label=Params]
+	"8fc4bc8e-5d57-4f03-bbd0-e19939fa5e38" -- "bbe82807-e10d-4524-94c4-ab1a4656cc0d"
+	"bcbc9950-0bd4-444d-94b5-32d991265cd4" [label=3.141516]
+	"bbe82807-e10d-4524-94c4-ab1a4656cc0d" -- "bcbc9950-0bd4-444d-94b5-32d991265cd4"
+	"36ee6a57-e50b-44ec-a846-f7087059931b" [label=3]
+	"bbe82807-e10d-4524-94c4-ab1a4656cc0d" -- "36ee6a57-e50b-44ec-a846-f7087059931b"
+	"9300c690-e0a0-49d1-8bec-435fa932330a" -- "8fc4bc8e-5d57-4f03-bbd0-e19939fa5e38"
+	"3772e275-2829-454b-9307-b388cfb340e9" [label=","]
+	"9300c690-e0a0-49d1-8bec-435fa932330a" -- "3772e275-2829-454b-9307-b388cfb340e9"
+	"c3e5763a-7f21-4a85-96e9-58c576366567" [label="toExponential()"]
+	"a59732b1-2dac-4961-950a-c1afc473526c" [label=Params]
+	"c3e5763a-7f21-4a85-96e9-58c576366567" -- "a59732b1-2dac-4961-950a-c1afc473526c"
+	"21401910-8095-4248-b45f-2cf56f77de05" [label=3.141516]
+	"a59732b1-2dac-4961-950a-c1afc473526c" -- "21401910-8095-4248-b45f-2cf56f77de05"
+	"7eb4a57d-1d58-4dd4-bd6f-59c64dbcab45" [label=3]
+	"a59732b1-2dac-4961-950a-c1afc473526c" -- "7eb4a57d-1d58-4dd4-bd6f-59c64dbcab45"
+	"3772e275-2829-454b-9307-b388cfb340e9" -- "c3e5763a-7f21-4a85-96e9-58c576366567"
+	"4af4d0d1-8759-4604-86f9-60804d8d24f0" [label="console.log"]
+	"4af4d0d1-8759-4604-86f9-60804d8d24f0" -- "1daf28c9-53df-4b01-bed5-255d3c7c3443"
+	"b934b2e8-b80e-46b7-9491-956c10e9cec3" -- "4af4d0d1-8759-4604-86f9-60804d8d24f0"
+	"dc26e9de-e4dc-4587-aeea-1ee834e9f811" [label=Typed_Var]
+	"d46c7f60-ac85-40bd-a737-0f68b7fd6e5e" [label=string]
+	"35fdd13f-3993-4da6-b7ba-5306a0615cb4" [label=carnet]
+	"652630b6-4b10-4694-a66a-16c5099cb09a" [label=201903865]
+	"d46c7f60-ac85-40bd-a737-0f68b7fd6e5e" -- "35fdd13f-3993-4da6-b7ba-5306a0615cb4"
+	"dc26e9de-e4dc-4587-aeea-1ee834e9f811" -- "d46c7f60-ac85-40bd-a737-0f68b7fd6e5e"
+	"dc26e9de-e4dc-4587-aeea-1ee834e9f811" -- "652630b6-4b10-4694-a66a-16c5099cb09a"
+	"4af4d0d1-8759-4604-86f9-60804d8d24f0" -- "dc26e9de-e4dc-4587-aeea-1ee834e9f811"
+	<function uuid4 at 0x7fdb831948b0> [label="+"]
+	"13800c3f-9dfd-4401-99b5-c730c5dd6ae1" [label="Hola "]
+	"4d479e6d-3ceb-4189-ac21-2a7accee906f" [label="toString()"]
+	"a8c1b798-0787-4410-aee7-92ce49b19650" [label=Params]
+	"4d479e6d-3ceb-4189-ac21-2a7accee906f" -- "a8c1b798-0787-4410-aee7-92ce49b19650"
+	"ab60e1e6-2a7a-4a0c-b672-e3e756779614" [label=201903865]
+	"a8c1b798-0787-4410-aee7-92ce49b19650" -- "ab60e1e6-2a7a-4a0c-b672-e3e756779614"
+	<function uuid4 at 0x7fdb831948b0> -- "13800c3f-9dfd-4401-99b5-c730c5dd6ae1"
+	<function uuid4 at 0x7fdb831948b0> -- "4d479e6d-3ceb-4189-ac21-2a7accee906f"
+	"b81ee31f-b0ac-4e44-b254-fcaa8c72f7d6" [label="console.log"]
+	"b81ee31f-b0ac-4e44-b254-fcaa8c72f7d6" -- <function uuid4 at 0x7fdb831948b0>
+	"dc26e9de-e4dc-4587-aeea-1ee834e9f811" -- "b81ee31f-b0ac-4e44-b254-fcaa8c72f7d6"
+	"7338645f-acd4-4108-bc3e-1ff8d234f6a4" [label="typeof()"]
+	"6f643800-fe75-49bd-ab7f-f7b67e6a0683" [label=Params]
+	"7338645f-acd4-4108-bc3e-1ff8d234f6a4" -- "6f643800-fe75-49bd-ab7f-f7b67e6a0683"
+	"22d74e07-841d-4e95-a2aa-0cdcc278c1dd" [label=-80.0]
+	"6f643800-fe75-49bd-ab7f-f7b67e6a0683" -- "22d74e07-841d-4e95-a2aa-0cdcc278c1dd"
+	"24c38c0c-75ba-4e34-9377-3927dd6861ca" [label=","]
+	"795682b5-465a-4420-b29f-5f833198185d" -- "24c38c0c-75ba-4e34-9377-3927dd6861ca"
+	"8ba88832-59c5-4427-8d37-7487cbb16c40" [label="typeof()"]
+	"8de088ed-141e-4075-9ca3-e41bc7bdee83" [label=Params]
+	"8ba88832-59c5-4427-8d37-7487cbb16c40" -- "8de088ed-141e-4075-9ca3-e41bc7bdee83"
+	"ea806958-7e46-4a74-9736-9f71c04e9b13" [label=-80.0]
+	"8de088ed-141e-4075-9ca3-e41bc7bdee83" -- "ea806958-7e46-4a74-9736-9f71c04e9b13"
+	"24c38c0c-75ba-4e34-9377-3927dd6861ca" -- "8ba88832-59c5-4427-8d37-7487cbb16c40"
+	"52d5841f-1412-4396-b999-71f57672eb0c" [label=","]
+	"24c38c0c-75ba-4e34-9377-3927dd6861ca" -- "52d5841f-1412-4396-b999-71f57672eb0c"
+	"0afc5665-e78a-4e94-9d96-8df6d9e1c3a7" [label=" "]
+	"52d5841f-1412-4396-b999-71f57672eb0c" -- "0afc5665-e78a-4e94-9d96-8df6d9e1c3a7"
+	"2d9a999c-cc58-4879-972a-bcba4c197874" [label=","]
+	"52d5841f-1412-4396-b999-71f57672eb0c" -- "2d9a999c-cc58-4879-972a-bcba4c197874"
+	"86b44b69-a480-4a5e-b775-3e9461f9907f" [label="typeof()"]
+	"4eddea24-17b8-4ca2-be20-383402620968" [label=Params]
+	"86b44b69-a480-4a5e-b775-3e9461f9907f" -- "4eddea24-17b8-4ca2-be20-383402620968"
+	"d4abcaae-a9c3-4fc7-90c5-85d26175e31d" [label=True]
+	"4eddea24-17b8-4ca2-be20-383402620968" -- "d4abcaae-a9c3-4fc7-90c5-85d26175e31d"
+	"2d9a999c-cc58-4879-972a-bcba4c197874" -- "86b44b69-a480-4a5e-b775-3e9461f9907f"
+	"795682b5-465a-4420-b29f-5f833198185d" [label="console.log"]
+	"795682b5-465a-4420-b29f-5f833198185d" -- "7338645f-acd4-4108-bc3e-1ff8d234f6a4"
+	"b81ee31f-b0ac-4e44-b254-fcaa8c72f7d6" -- "795682b5-465a-4420-b29f-5f833198185d"
+	"302e5738-82ae-4081-adce-a8db7c6b9cd4" [label="---------------------------------"]
+	"6834f20e-4292-4602-ae94-229a1f68f83b" [label="console.log"]
+	"6834f20e-4292-4602-ae94-229a1f68f83b" -- "302e5738-82ae-4081-adce-a8db7c6b9cd4"
+	"795682b5-465a-4420-b29f-5f833198185d" -- "6834f20e-4292-4602-ae94-229a1f68f83b"
+}

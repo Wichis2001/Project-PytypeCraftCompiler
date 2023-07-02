@@ -1,0 +1,49 @@
+.animation-gradient {
+
+  background: linear-gradient(90deg,#fadb61 0%, #ff006a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.margin-define {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+h1 {
+  all: initial;
+  font-family: 'Kablammo', Roboto, "Helvetica Neue", sans-serif;
+  font-size: 75px;
+  animation: hueRotate 7s alternate infinite;
+}
+
+h2 {
+  all: initial;
+  font-family: 'Kablammo', 'Tilt Prism', Roboto, "Helvetica Neue", sans-serif;
+  font-size: 50px;
+  animation: hueRotate 7s alternate infinite;
+}
+@keyframes hueRotate {
+  0% {
+    filter: hue-rotate(279deg)
+  }
+  50% {
+    filter: hue-rotate(197deg)
+  }
+  100% {
+    filter: hue-rotate(12deg);
+  }
+}
+
+h3{
+  all: initial;
+  font-family: 'Tilt Prism', Roboto, "Helvetica Neue", sans-serif;
+  font-size: 45px;
+  color: white;
+}
+
+
+p{
+  font-size: 30px;
+}

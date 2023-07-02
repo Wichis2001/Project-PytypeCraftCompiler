@@ -1,0 +1,45 @@
+<h1>Reporte de Errores</h1>
+<mat-divider></mat-divider>
+
+<br>
+
+<table mat-table [dataSource]="errores.valores">
+  <!-- Columna de Índice -->
+  <ng-container matColumnDef="No.">
+    <th mat-header-cell *matHeaderCellDef>No.</th>
+    <td mat-cell *matCellDef="let valor; let i = index">{{ i + 1 }}</td>
+  </ng-container>
+  <!-- Columna de Estado -->
+  <ng-container matColumnDef="Nombre Variable">
+    <th mat-header-cell *matHeaderCellDef>Nombre Variable</th>
+    <td mat-cell *matCellDef="let valor">{{ valor[0] }}</td>
+  </ng-container>
+   <!-- Columna de Estado -->
+   <ng-container matColumnDef="Valor">
+    <th mat-header-cell *matHeaderCellDef>Valor</th>
+    <td mat-cell *matCellDef="let valor">{{ valor[1] }}</td>
+  </ng-container>
+   <!-- Columna de Estado -->
+   <ng-container matColumnDef="Tipo">
+    <th mat-header-cell *matHeaderCellDef>Tipo</th>
+    <td mat-cell *matCellDef="let valor">{{ valor[2] }}</td>
+  </ng-container>
+   <!-- Columna de Estado -->
+   <ng-container matColumnDef="Instancia">
+    <th mat-header-cell *matHeaderCellDef>Instancia</th>
+    <td mat-cell *matCellDef="let valor">{{ valor[3] }}</td>
+  </ng-container>
+   <!-- Columna de Estado -->
+   <ng-container matColumnDef="Fila">
+    <th mat-header-cell *matHeaderCellDef>Fila</th>
+    <td mat-cell *matCellDef="let valor">{{ valor[4] }}</td>
+  </ng-container>
+  <!-- Columna de Estado -->
+  <ng-container matColumnDef="Columna">
+    <th mat-header-cell *matHeaderCellDef>Columna</th>
+    <td mat-cell *matCellDef="let valor">{{ valor[5] }}</td>
+  </ng-container>
+  <!-- Agregar las columnas a la tabla -->
+  <tr mat-header-row *matHeaderRowDef="columnas"></tr>
+  <tr mat-row *matRowDef="let row; columns: columnas;"></tr>
+</table>

@@ -1,0 +1,38 @@
+<h1>Interpreta tu Código de TypeScript</h1>
+<mat-divider class="mb-2"></mat-divider>
+
+<div class="grid">
+  <div class="col-12 sm:col-6">
+
+    <ngs-code-editor
+      [theme]="theme"
+      [codeModel]="codeModelCompiler"
+      [options]="options"
+      style="width: 100%; height: 100%; border-radius: 10px;"
+      >
+    </ngs-code-editor>
+
+    <br>
+    <div class="flex justify-content-center">
+      <button
+          mat-flat-button
+          color="primary"
+          (click)="traducir()"
+          [disabled]="validarBoton()">
+        <mat-icon>terminal</mat-icon>
+        Traducir
+      </button>
+    </div>
+  </div>
+  <div class="col-12 sm:col-6">
+
+    <textarea type="text"
+              [readonly]="true"
+              spellcheck="false"
+              [(ngModel)]="codeSalida"
+              style="width: 100%; height: 100%; border-radius: 10px; background-color: #1E1E1E; color: #AEAFAD;">
+    </textarea>
+
+  </div>
+</div>
+

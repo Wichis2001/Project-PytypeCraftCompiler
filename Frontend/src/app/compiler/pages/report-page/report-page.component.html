@@ -1,0 +1,39 @@
+<h1>Reporte de Errores</h1>
+<mat-divider class="mb-2"></mat-divider>
+<br>
+<div class="flex justify-content-evenly">
+  <div class="flex align-items-center">
+    <button
+      mat-flat-button
+      (click)="habilitarTabla()"
+      color="accent">
+      <mat-icon>table_chart</mat-icon>
+      Tabla de Simbolos
+    </button>
+  </div>
+  <div class="flex align-items-center">
+    <button
+      mat-flat-button
+      color="primary"
+      (click)="arbolParser()">
+      <mat-icon>park</mat-icon>
+      Generar CST
+    </button>
+  </div>
+  <div class="flex align-items-center">
+    <button
+      mat-flat-button
+      color="warn"
+      (click)="habilitarError()">
+      <mat-icon>error</mat-icon>
+      Errores en Ejecución
+    </button>
+  </div>
+</div>
+
+<div *ngIf="error">
+  <app-errores-report></app-errores-report>
+</div>
+<div *ngIf="simbolos">
+  <app-tabla-simbolos-report></app-tabla-simbolos-report>
+</div>
